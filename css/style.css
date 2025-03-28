@@ -1,14 +1,18 @@
+html {
+    background-color: rgb(50, 10, 126);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
 header {
-    background-color: salmon;
+    background-color: rgb(78, 109, 194);
 }
 
 nav {
-    background-color: rgb(194, 90, 78);
+    background-color: rgb(78, 66, 241);
 }
 
 main {
@@ -17,17 +21,23 @@ main {
     color: beige;
 }
 footer {
-    background-color: salmon;
+    background-color: rgb(78, 66, 241);
+    color: beige;
 }
+
 li {
     display: inline-block;
     width: 30%;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(90, 45, 13);
+    color: beige;
+}
+
+a {
+    color: beige;
 }
 
 p {
