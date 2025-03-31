@@ -12,6 +12,7 @@ header {
 }
 
 nav {
+    background-color: rgb(50, 10, 126);
     display: inline-block;
     width: 80%;
 }
@@ -60,10 +61,20 @@ ul {
 
 /*
 li {
+    
     display: inline-block;
     width: 25%;
 }
 */
+
+/* The following styling properties help convey which page the user is currently on
+   by styling one of the navigation links and disabling the ability to click on it.*/
+#current a {
+    background-color: rgb(205, 245, 129);
+    color: black;
+    text-decoration: none;
+    pointer-events: none;
+}
 
 h1 {
     text-align: center;
